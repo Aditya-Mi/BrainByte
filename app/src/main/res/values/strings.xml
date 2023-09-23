@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BrainByte</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="safe_meter">safe meter</string>
+    <string name="score">score-</string>
+    <string name="paste_your_url_here">paste your url here</string>
+    <string name="url_description">the safe meter has a rating of $% for this app.this app might have privacy and security issues. You may have higher risk</string>
+    <string name="check">check</string>
+    <string name="log_in">log in.</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="recents">Recents</string>
+    <string name="contactimage">ProfileImage</string>
+    <string name="name">Name</string>
+    <string name="number">+91000000000</string>
+    <string name="_9_00_pm">9:00 PM</string>
+    <string name="channel_name">Url Checker</string>
+    <string name="channel_description">Notification for url checker</string>
+</resources>

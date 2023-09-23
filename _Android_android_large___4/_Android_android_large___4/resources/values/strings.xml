@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- android_large___4 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="get_yourself_secured__string">Get yourself secured. </string>
+	<string name="be_safe__string">Be safe. </string>
+</resources>

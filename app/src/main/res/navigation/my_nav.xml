@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/urlFragment">
+
+    <fragment
+        android:id="@+id/urlFragment"
+        android:name="com.example.brainbyte.fragment.UrlFragment"
+        android:label="fragment_url"
+        tools:layout="@layout/fragment_url" >
+        <action
+            android:id="@+id/action_urlFragment_to_recentFragment"
+            app:destination="@id/recentFragment" />
+        <action
+            android:id="@+id/action_urlFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_urlFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+        <action
+            android:id="@+id/action_urlFragment_to_upiFragment"
+            app:destination="@id/upiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.brainbyte.fragment.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+        <action
+            android:id="@+id/action_contactFragment_to_recentFragment"
+            app:destination="@id/recentFragment" />
+        <action
+            android:id="@+id/action_contactFragment_to_urlFragment"
+            app:destination="@id/urlFragment" />
+        <action
+            android:id="@+id/action_contactFragment_to_upiFragment"
+            app:destination="@id/upiFragment" />
+        <action
+            android:id="@+id/action_contactFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="com.example.brainbyte.fragment.RecentFragment"
+        android:label="fragment_recent"
+        tools:layout="@layout/fragment_recent" >
+        <action
+            android:id="@+id/action_recentFragment_to_urlFragment"
+            app:destination="@id/urlFragment" />
+        <action
+            android:id="@+id/action_recentFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_recentFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+        <action
+            android:id="@+id/action_recentFragment_to_upiFragment"
+            app:destination="@id/upiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.brainbyte.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" >
+        <action
+            android:id="@+id/action_messageFragment_to_urlFragment"
+            app:destination="@id/urlFragment" />
+        <action
+            android:id="@+id/action_messageFragment_to_recentFragment"
+            app:destination="@id/recentFragment" />
+        <action
+            android:id="@+id/action_messageFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_messageFragment_to_upiFragment"
+            app:destination="@id/upiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/upiFragment"
+        android:name="com.example.brainbyte.UpiFragment"
+        android:label="fragment_upi"
+        tools:layout="@layout/fragment_upi" >
+        <action
+            android:id="@+id/action_upiFragment_to_messageFragment"
+            app:destination="@id/messageFragment" />
+        <action
+            android:id="@+id/action_upiFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_upiFragment_to_urlFragment"
+            app:destination="@id/urlFragment" />
+        <action
+            android:id="@+id/action_upiFragment_to_recentFragment"
+            app:destination="@id/recentFragment" />
+    </fragment>
+</navigation>

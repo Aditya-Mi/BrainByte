@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="40dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/callLogBackground"
+        android:background="#1A1A1A">
+
+        <ImageView
+            android:id="@+id/recentContactImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_person_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/contact_profile_layout"
+            android:contentDescription="@string/contactimage" />
+        <TextView
+            android:id="@+id/tvRecentContactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/recentContactImage"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/gilroy_extra_bold"/>
+
+        <TextView
+            android:id="@+id/recentContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textColor="#9C9C9C"
+            android:textSize="15sp"
+            android:fontFamily="@font/gilroy_extra_bold"
+            app:layout_constraintStart_toStartOf="@id/tvRecentContactName"
+            app:layout_constraintTop_toBottomOf="@id/tvRecentContactName"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tvRecentContactTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_00_pm"
+            android:textColor="#9C9C9C"
+            android:textSize="15sp"
+            android:fontFamily="@font/gilroy_extra_bold"
+            android:layout_marginStart="15dp"
+
+            app:layout_constraintTop_toTopOf="@id/recentContactNumber"
+            app:layout_constraintStart_toEndOf="@id/recentContactNumber"/>
+
+
+        <ImageView
+            android:id="@+id/ivRecentCallType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/baseline_arrow_outward_24"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

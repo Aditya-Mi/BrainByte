@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity"
+    android:id="@+id/_bg__splash_screen"
+    android:background="@drawable/_bg__splash_screen">
+
+
+                <RelativeLayout android:id="@+id/card19_container_"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView android:id="@+id/b_1"
+                        android:src="@drawable/b_1"
+                        android:contentDescription="b_1"
+                        android:layout_marginStart="45dp"
+                        android:layout_marginTop="90dp"
+                        android:layout_width="147dp"
+                        android:layout_height="140dp" />
+
+                </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

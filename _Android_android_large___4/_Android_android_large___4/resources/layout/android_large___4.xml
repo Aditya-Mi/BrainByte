@@ -1,0 +1,53 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<ScrollView android:id="@+id/android_large___4" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/__bg__android_large___4"
+				android:background="@drawable/__bg__android_large___4_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="385dp"
+				android:layout_height="800dp" />
+
+			<ImageView android:id="@+id/image_2"
+				android:src="@drawable/image_2"
+				android:contentDescription="image_2"
+				 android:layout_marginStart="103dp"
+				android:layout_marginTop="320dp"
+				android:layout_width="180dp"
+				android:layout_height="180dp" />
+
+			<TextView android:id="@+id/get_yourself_secured_"
+				android:fontFamily="Arial"
+				android:textStyle="bold"
+				android:textSize="26sp"
+				android:textColor="@color/get_yourself_secured__color"
+				android:layout_marginLeft="54dp"
+				android:layout_marginTop="535dp"
+				android:layout_width="309dp"
+				android:layout_height="64dp"
+				android:text="@string/get_yourself_secured__string"
+				 />
+
+			<TextView android:id="@+id/be_safe_"
+				android:fontFamily="Arial"
+				android:textStyle="bold"
+				android:textSize="26sp"
+				android:textColor="@color/get_yourself_secured__color"
+				android:layout_marginLeft="54dp"
+				android:layout_marginTop="581dp"
+				android:layout_width="309dp"
+				android:layout_height="64dp"
+				android:text="@string/be_safe__string"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
